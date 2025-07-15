@@ -1,0 +1,173 @@
+/* General reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Navbar */
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: #fff;
+}
+
+.navbar-brand {
+	font-family: 'Poppins', sans-serif;
+	color: #003366 !important;
+	font-weight: 600;
+	font-size: 1.8rem;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+/* Nav links */
+.nav-link {
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#nav-bar ul li a:hover {
+	color: #007BFF!important;
+}
+
+/* Slider */
+#slider {
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 650px; /* Ajusta la altura que quieras */
+	object-fit: cover; /* Mantiene proporción sin distorsionar ni pixelar */
+}
+
+/* Carousel caption */
+.carousel-caption {
+	top: 25%;
+	transform: translateY(1%);
+	bottom: initial!important;
+}
+
+.carousel-caption h5 {
+	color: #fff;
+	font-size: 42px;
+	text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* Para que el texto destaque */
+}
+
+/* Nosotros */
+#about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+	text-align: center;
+}
+
+#about .btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.about-content {
+	padding-top: 20px;
+	border-radius: 16px !important;
+}
+
+#about img {
+	width: 100%;
+	height: 400px; /* ajusta a tu gusto */
+	object-fit: cover;
+	border-radius: 12px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Botones */
+.btn,
+.btn:hover,
+.btn:active {
+	background: #007BFF!important;
+	border-color: #007BFF!important;
+}
+
+/* Servicios (sin cambio) */
+#services {
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/servicios.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+/* Proyectos */
+#proyects {
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#proyects .row {
+	margin-top: 0;
+}
+
+.col-md-4 {
+	margin: 40px auto;
+}
+
+.proyec {
+	width: 100%; /* que ocupe todo el ancho del contenedor */
+	height: 250px; /* altura fija */
+	object-fit: cover; /* para que mantenga proporción */
+	border-radius: 12px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease;
+}
+
+.proyec:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+/* Otros estilos */
+h1 {
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+
+h1::after {
+	content: '';
+	background: #007BFF;
+	display: block;
+	height: 3px;
+	width: 150px;
+	margin: 20px auto 5px;
+	padding-bottom: 0px;
+}
+
+/* Contacto */
+#contact {
+	background:#efefef ;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+
+.contact-info .fa {
+	margin-top: 10px;
+	color: #007BFF!important;
+	font-weight: bold;
+}
+
+/* Footer */
+#footer {
+	background: #f5f5f5;
+	padding: 20px 0;
+	text-align: center;
+	color: #555;
+	font-size: 14px;
+}
